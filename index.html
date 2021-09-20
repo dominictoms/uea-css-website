@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+
+	<!-- site data -->
+	<title>uea css</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=.6">
+	<link rel ="shortcut icon" href="ueacss.png" type="image/x-icon"/>
+
+	<!-- page styling -->
+	<style>
+
+		/* roboto mono */
+		@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+		html, body
+		{
+			/* black background */
+			background-color: #000;
+
+			/* global font */
+			color: #fff; 
+			font-family: "Roboto Mono", monospace;
+			font-size: 28px;
+			
+			/* no margin */
+			margin: 0;
+		}
+
+		a:link, a:visited
+		{
+			/* links stay white */
+			color: #fff;
+		}
+
+		:selection
+		{
+			/* invert selection */
+			background: #fff;
+			color: #000;
+		}
+
+		#header
+		{
+			/* lock the header size */
+			width: 500px;
+			height: 160px;
+
+			/* to the center */
+			margin: auto;
+
+			/* top margin */
+			margin-top: 40px;
+		}
+
+		#title
+		{
+			/* make the logo bigger */
+			font-weight: bold;
+			font-size: 64px;
+
+			/* capped width and height */
+			width: 200px;
+			height: 160px;
+
+			/* to the left */
+			float: left;
+
+			/* reduce line height */
+			line-height: 100%;
+		}
+
+		#desc
+		{
+			/* capped width and height */
+			max-width: 300px;
+			height: 146px;
+
+			/* to the right */
+			float: right;
+
+			/* down a bit */
+			padding-top: 14px;
+		}
+
+		#links
+		{
+			/* align the text to the center */
+			text-align: center;
+		}
+
+	</style>
+	
+
+</head>
+<body>
+
+	<!-- header -->
+	<div id="header">
+
+		<!-- title -->
+		<div id="title">
+			<span>uea</span><br>
+			<span>css_</span><br>
+		</div>
+
+		<!-- description -->
+		<div id="desc">
+			<span>the official uea computer science society</span><br>
+		</div>
+
+	</div>
+
+	<!-- links -->
+	<div id="links">
+		<br>
+		<a href="https://discord.gg/SCXTSQ4" target="_blank">discord</a>
+		<a href="https://facebook.com/groups/UEACSS" target="_blank">facebook</a>
+		<a href="https://uea-css.creator-spring.com" target="_blank">apparel</a>
+		<a href="https://www.uea.su/opportunities/society/css" target="_blank">uea su</a>
+	</div>
+
+</body>
+</html>
